@@ -1,0 +1,84 @@
+from pwn import *
+
+p = process("./automation")
+
+def str_to_hex():
+    start = problem.rfind(' ')
+    string = problem[start+6:start+14]
+    hexa = ""
+    for j in string:
+        hexa += hex(ord(j))[2:]
+    p.sendline(hexa)
+
+def hex_to_int():
+    start = problem.rfind('0x')
+    end = len(problem[start+2:]) - 4
+    print(problem[start+2:start+end])
+    num = str(int(problem[start+2:start+end], 16))
+    p.sendline(num)
+
+def hex_to_str():
+    start = problem.rfind('0x')
+    end = len(problem[start+2:]) - 4
+    string = ""
+    pre = "0x"
+    hexa = problem[start+2:start+end]
+    for h in range(int(len(hexa)/2)):
+        cur = ""
+        cur = pre + hexa[2*h:2*h+2]
+        string += str(chr(int(cur,16)))
+    p.sendline(string)
+
+def plus():
+    start = problem.rfind(': ')
+    end = len(problem[start+2:]) - 4
+    numbers = problem[start+2:start+end].split('+')
+    a = numbers[0]
+    b= numbers[1]
+    string = ""
+    high = 0
+    if (a[0]!='-'&&b[0]!='-'):
+        for k in range(8, -1, -1):
+            cur = int(a[k])+int(b[k]) + high
+            high = cur/10
+            cur = cur%10
+            string = str(cur) + string
+        if (high != 0):
+            string = str(high) + string
+                                                             42,1          39%
+    elif (a[0]=='-'&&b[0]=='-'):
+        for k in range(9, 0, -1):
+            cur = int(a[k])+int(b[k])+hight
+            high = cur/10
+            cur = cur%10
+            string = str(cur) + string
+        if (high != 0):
+            string = '-' +  str(high) + string
+    elif (a[0]!='-' && b[0]=='-'):
+        if (int(a[0]) >= int(b[1])):
+
+        else:
+
+    else:
+
+        p.sendline(string)
+    else:
+                                                             59,1          72%
+
+
+
+for i in range(10):
+    problem = p.recvuntil('\n\n').decode()
+    print(problem)
+    if (i == 0):
+        hex_to_int()
+    elif (i == 1):
+        str_to_hex()
+    elif (i == 2):
+        hex_to_str()
+    elif (i ==3):
+        plus()
+                                                             78,1          Bot
+
+
+
