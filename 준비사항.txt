@@ -1,0 +1,66 @@
+- SAP ABAP 코딩 가능자
+- IT 관련 자격증(CISA, 정보처리기사, SAP 자격증) 취득자
+- 영어능력(말하기/듣기) 상 또는 외국대학 졸업자
+- IT/컴퓨터/정보통신 관련 전공자가 회계 및 내부통제 자격(AICPA, CIA 등) 취득자
+
+- 데이터 분석 역량 보유(데이터 분류 경험, R, SAS, Python 등 다뤄본 경험)
+
+- 리스크관리, 솔루션 개발업무 경험자
+- 머신러닝, 딥러닝 등 인공지능(AI) 관련 지식 및 경험 보유자
+- 빅데이터 기반 모델링 경험 보유자
+
+- 디지털 UI/UX 및 Data-driven Thingking 유관 능력 보유자
+
+- ML, AI 모델링 및 컨설팅 경력 보유자
+- 정형, 비정형 데이터(Big Data)기반 모델링 경력 보유자
+
+- C, Java 언어 개발 가능자
+
+<우대요건-신입>
+
+- 서버/모바일/웹/API 서비스 개발 경험자
+- UNIX, Linux OS, SQL 경험자
+
+데이터와 데이터베이스에 관한 관심과 이해를 갖추신 분
+SQL 쿼리 구현 역량을 갖추신 분
+
+[우대 사항]
+Tableau 사용 경험이 있는 분
+ 
+리눅스, 서버 운용시스템, 하드웨어, 부품관련 설치, 문제해결 관한 실습/실무 경험자(2년 미만)
+
+네트워크 관련 장치 설비 및 환경설정에 관한 실습/실무 경험자 혹은 네트워크 자격증 소유자
+소프트웨어 프로그래밍 관련 경험자
+
+자격요건
+- 정보보안 관련 법률에 대한 이해와 IT시스템에 대한 전반적인 지식이 있는 분
+- 최신 보안 동향과 기술 파악에 관심이 많은 분
+
+- 정보보안 관련 전공자 또는 관련 동호회 활동 경험이 있는 분
+
+
+우대사항
+
+- 파이썬 등의 프로그램 개발 역량을 보유하여 반복적인 업무를 자동화할 수 있는 분
+- 정보보안 (산업)기사, CPPG 등의 자격증을 보유하신 분
+
+
+Key Qualifications
+• Experience in Web UX and REST API programming
+• Understanding of deep learning theories, techniques, architectures, and optimization strategies
+• Programming skills with Python/C++
+• Experience working with one or more deep learning frameworks such as TensorFlow and PyTorch
+
+Your responsibilities include
+• Analyzing performance of deep learning models and enhance the performance by optimizing 
+OpenVINO software components, especially for Intel GPU architectures
+• Enabling deep learning models by developing and testing network operations
+Key Qualifications
+• Programming skills with C/C++ (Modern C++ is preferred.)
+• Good understanding of undergraduate-level data structures and algorithms
+• Strong knowledge in operating systems, system software, and computer architecture
+• Good problem-solving skills including debugging and trouble-shooting
+Optional Qualifications
+• Basic knowledge of deep learning technologies
+• Experience in large scale software project involvement (beyond class-level projects)
+• Good English
